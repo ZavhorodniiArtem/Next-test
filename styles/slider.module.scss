@@ -1,0 +1,33 @@
+.sliderWrapper {
+  background: #32384d;
+  margin: 50px;
+  padding: 24px 60px;
+  border-radius: 32px;
+
+  * {
+    background: #32384d;
+  }
+}
+
+.swiperSlide {
+  background: #32384d;
+  display: flex;
+
+  img {
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 4px;
+    margin-right: 60px;
+  }
+
+  h1 {
+    font-weight: 500;
+    color: white;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin-top: 24px;
+  }
+}
